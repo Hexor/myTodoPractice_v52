@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Task;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Log;
 use Illuminate\Support\Facades\Response;
 
 use App\Http\Requests;
@@ -16,9 +17,10 @@ class TaskController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
-    public function index()
+    public function index(Request $request)
     {
-        return Task::latest()->get();
+        Log::info($request);
+        return Task::latest()->where('user_id',$request->user_id)->get();
     }
 
     /**
