@@ -1,4 +1,4 @@
-这是一个使用 Laravel 框架的 Todo App，前端主要使用了 Vuejs ，CSS 样式使用了一些 bootstrap。
+这是一个使用 Laravel 框架的 Todo 网页小程序，前端主要使用了 Vuejs ，CSS 样式使用了一些 bootstrap。
 
 创建项目的目的是为了提升自己前后端的技术，以及框架使用能力，让自己对 web 开发更加熟练。
 
