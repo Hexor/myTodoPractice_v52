@@ -1,27 +1,15 @@
-# Laravel PHP Framework
+这是一个使用 Laravel 架构的 Todo App，前端使用了 Vuejs。
 
-[![Build Status](https://travis-ci.org/laravel/framework.svg)](https://travis-ci.org/laravel/framework)
-[![Total Downloads](https://poser.pugx.org/laravel/framework/d/total.svg)](https://packagist.org/packages/laravel/framework)
-[![Latest Stable Version](https://poser.pugx.org/laravel/framework/v/stable.svg)](https://packagist.org/packages/laravel/framework)
-[![Latest Unstable Version](https://poser.pugx.org/laravel/framework/v/unstable.svg)](https://packagist.org/packages/laravel/framework)
-[![License](https://poser.pugx.org/laravel/framework/license.svg)](https://packagist.org/packages/laravel/framework)
+创建这个App的目的是为了提升自己前后端的框架和技术的使用能力，让自己对 web 开发更加熟练。
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable, creative experience to be truly fulfilling. Laravel attempts to take the pain out of development by easing common tasks used in the majority of web projects, such as authentication, routing, sessions, queueing, and caching.
+功能包括：
+1. 对 Todo 项的 CURD 操作
+2. 访客使用本 App 时，数据保存在客户端本地
+3. 登录用户使用本 App 时，数据保存在服务器端
 
-Laravel is accessible, yet powerful, providing tools needed for large, robust applications. A superb inversion of control container, expressive migration system, and tightly integrated unit testing support give you the tools you need to build any application with which you are tasked.
+--- 
 
-## Official Documentation
+使用的技术和框架版本：
 
-Documentation for the framework can be found on the [Laravel website](http://laravel.com/docs).
-
-## Contributing
-
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](http://laravel.com/docs/contributions).
-
-## Security Vulnerabilities
-
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell at taylor@laravel.com. All security vulnerabilities will be promptly addressed.
-
-## License
-
-The Laravel framework is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT).
+1. Laravel Framework version 5.2.45
+2. Vuejs v1.0.26
