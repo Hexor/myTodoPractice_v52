@@ -21,4 +21,4 @@
 杂项：
 
 1. 登录模块使用 Laravel 的 auth 组件， php artisan make:auth。该组件自带的一些样式和字体由于 CDN 在国外，可能需要代理才能正常显示。
-2. CURD 操作使用了 Vuejs 的 Vue-resource plugin，简化了 Ajax 代码的编写
+2. CURD 操作使用了 Vuejs 的 Vue-resource plugin，简化了 Ajax 代码的编写。
