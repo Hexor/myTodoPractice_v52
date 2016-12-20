@@ -28,7 +28,9 @@ class AuthController extends Controller
      *
      * @var string
      */
-    protected $redirectTo = '/tasks';
+
+    // 用户登录之后直接跳转到用户的 Todos 列表界面
+    protected $redirectTo = '/user/tasks';
 
 
     /**
